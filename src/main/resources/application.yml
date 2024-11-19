@@ -1,0 +1,15 @@
+#server:
+#  port: 8085
+
+spring:
+  application:
+    name: view_exp
+
+  thymeleaf:
+    suffix: .html
+#    suffix: .txt
+    prefix: classpath:/templates/
+#    prefix: classpath:/custom/
+
+
+
